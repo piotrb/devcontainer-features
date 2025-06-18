@@ -1,0 +1,41 @@
+{
+    "debian-latest": {
+        "image": "debian:latest",
+        "features": {
+            "ghcr.io/devcontainers/features/common-utils": {
+                "username": "codehero",
+                "configureZshAsDefaultShell": "true",
+                "uid": "1000",
+                "gid": "1000",
+                "upgradePackages": "false"
+            },
+            "direnv-minimal": {}
+        }
+    },
+    "ubuntu-latest": {
+        "image": "ubuntu:latest",
+        "features": {
+            "ghcr.io/devcontainers/features/common-utils": {
+                "username": "codehero",
+                "configureZshAsDefaultShell": "true",
+                "uid": "1000",
+                "gid": "1000",
+                "upgradePackages": "false"
+            },
+            "direnv-minimal": {}
+        }
+    },
+    "devcontainers-base-ubuntu": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "ghcr.io/devcontainers/features/common-utils": {
+                "username": "codehero",
+                "configureZshAsDefaultShell": "true",
+                "uid": "1000",
+                "gid": "1000",
+                "upgradePackages": "false"
+            },
+            "direnv-minimal": {}
+        }
+    }
+}

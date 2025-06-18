@@ -1,0 +1,23 @@
+{
+    "debian-latest": {
+        "image": "debian:latest",
+        "features": {
+            "ghcr.io/devcontainers/features/python:1": {},
+            "aws-sso-util": {}
+        }
+    },
+    "ubuntu-latest": {
+        "image": "ubuntu:latest",
+        "features": {
+            "ghcr.io/devcontainers/features/python:1": {},
+            "aws-sso-util": {}
+        }
+    },
+    "devcontainers-base-ubuntu": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "ghcr.io/devcontainers/features/python:1": {},
+            "aws-sso-util": {}
+        }
+    }
+}

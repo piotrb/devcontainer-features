@@ -6,9 +6,6 @@
     "options": {
     },
     "installsAfter": [
-        "ghcr.io/devcontainers/features/python:1"
-    ],
-    "dependsOn": {
-        "ghcr.io/devcontainers/features/python:1": {}
-    }
+        "ghcr.io/devcontainers/features/python"
+    ]
 }
