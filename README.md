@@ -1,2 +1,2 @@
-# Dev Container Features: Self Authoring Template
+# Dev Container Features
 
