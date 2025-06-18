@@ -1,5 +1,6 @@
-#!/bin/sh
-set -e
+#!/bin/bash
+set -e -o pipefail
+set -x
 
 apt-get update -y
 apt-get -y install --no-install-recommends direnv

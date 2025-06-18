@@ -1,5 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 set -e -o pipefail
+set -x
 
 architecture=$(dpkg --print-architecture)
 case "${architecture}" in

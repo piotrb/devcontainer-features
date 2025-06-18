@@ -1,5 +1,6 @@
-#!/bin/sh
-set -e
+#!/bin/bash
+set -e -o pipefail
+set -x
 
 curl https://mise.run | MISE_INSTALL_PATH=/usr/local/bin/mise sh
 eval "$(mise activate --shims)"
