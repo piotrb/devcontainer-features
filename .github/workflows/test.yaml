@@ -16,6 +16,7 @@ jobs:
           - mise-minimal
           - direnv-minimal
           - aws-cli-minimal
+          - aws-sso-util
         baseImage:
           - debian:latest
           - ubuntu:latest

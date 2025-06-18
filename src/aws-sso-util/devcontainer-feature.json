@@ -1,0 +1,14 @@
+{
+    "name": "Install AWS SSO Util",
+    "id": "aws-sso-util",
+    "version": "1.0.0",
+    "description": "A feature to install AWS SSO Util",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/python:1"
+    ],
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/python:1": {}
+    }
+}
