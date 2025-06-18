@@ -1,0 +1,11 @@
+{
+    "name": "Install AWS CLI - Minimal",
+    "id": "aws-cli-minimal",
+    "version": "1.0.0",
+    "description": "A feature to install AWS CLI - Minimal",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

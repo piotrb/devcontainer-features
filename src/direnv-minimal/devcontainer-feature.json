@@ -1,0 +1,11 @@
+{
+    "name": "Install Direnv - Minimal",
+    "id": "direnv-minimal",
+    "version": "1.0.0",
+    "description": "A feature to install Direnv - Minimal",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

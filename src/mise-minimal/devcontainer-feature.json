@@ -1,0 +1,11 @@
+{
+    "name": "Install Mise - Minimal",
+    "id": "mise-minimal",
+    "version": "1.0.0",
+    "description": "A feature to install Mise - Minimal",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
