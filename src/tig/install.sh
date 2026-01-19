@@ -4,6 +4,12 @@ set -x
 
 GITHUB_REPO="jonas/tig"
 
+# Install build dependencies
+echo "Installing build dependencies..."
+apt-get update
+apt-get install -y build-essential libncursesw5-dev pkg-config curl jq
+rm -rf /var/lib/apt/lists/*
+
 # Determine the version to download
 if [ "${VERSION}" = "latest" ]; then
     # Fetch the latest release tag
