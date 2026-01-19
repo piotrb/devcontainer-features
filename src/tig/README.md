@@ -19,7 +19,6 @@ A feature to install Tig, a text-mode interface for Git repositories.
 
 
 
-
 ---
 
 _Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/piotrb/devcontainer-features/blob/main/src/tig/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
