@@ -1,7 +1,7 @@
 {
     "name": "Install Tig",
     "id": "tig",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "A feature to install Tig, a text-mode interface for Git repositories.",
     "options": {
         "version": {
