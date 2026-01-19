@@ -1,0 +1,10 @@
+{
+    "name": "Install Build Essential",
+    "id": "build-essential",
+    "version": "1.0.0",
+    "description": "A feature to install Build Essential, a package containing essential tools for building software.",
+    "options": {
+    },
+    "installsAfter": [
+    ]
+}
